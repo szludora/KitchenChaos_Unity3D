@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 549411108559569151}
+  - component: {fileID: 3542965826878218850}
   m_Layer: 0
   m_Name: Plate
   m_TagString: Untagged
@@ -32,6 +33,19 @@ Transform:
   - {fileID: 4483128845445319805}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3542965826878218850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268177624529811534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e342c9aa018454bb190e4b926f8ab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kitchenObjectSO: {fileID: 11400000, guid: 71bc25f9686be05419ade9cb5c55e8b7, type: 2}
 --- !u!1001 &782864260474329853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43,7 +57,7 @@ PrefabInstance:
     - target: {fileID: 3812876574508226176, guid: c0c9afd619b40914a8f625c0535e2284,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.02
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3812876574508226176, guid: c0c9afd619b40914a8f625c0535e2284,
         type: 3}
